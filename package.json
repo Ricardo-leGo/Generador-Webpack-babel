@@ -1,0 +1,37 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+
+    "dev": " webpack --watch --progress & webpack-dev-server --open --mode development --progress"
+  },
+  "keywords": [],
+  "author": "Ricardo LeGo <hola@legoricardo.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-transform-modules-amd": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@types/lodash": "^4.14.182",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-live-reload-plugin": "^1.0.12",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.3"
+  }
+}
