@@ -4,8 +4,9 @@
   "description": "",
   "main": "./index.js",
   "scripts": {
-
-    "dev": " webpack --watch --progress & webpack-dev-server --open --mode development --progress"
+    "build": "webpack ",
+     "dev": "webpack & webpack serve --mode development --open",
+     "dev2":"webpack & webpack serve --mode development --open"
   },
   "keywords": [],
   "author": "Ricardo LeGo <hola@legoricardo.com>",
